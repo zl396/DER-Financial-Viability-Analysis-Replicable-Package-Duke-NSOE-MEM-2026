@@ -1,0 +1,37 @@
+{
+  "TX_SolarOnly": {
+    "bill_with_system": 1698.93,
+    "bill_without_system": 2786.95,
+    "year1_savings": 1088.02
+  },
+  "TX_SolarBattery": {
+    "bill_with_system": 1688.15,
+    "bill_without_system": 2786.95,
+    "year1_savings": 1098.8
+  },
+  "_metadata": {
+    "pv_kw": 5.95,
+    "battery_kwh": 13.5,
+    "battery_kw": 5.0,
+    "pv_annual_kwh": 8661,
+    "pvs_annual_kwh": 8490,
+    "load_annual_kwh": 15024,
+    "load_peak_kw": 5.38,
+    "load_source": "ResStock TX aggregate (15,024 kWh/yr)",
+    "weather": "Houston TX 2023 NSRDB",
+    "bill_wo": 2786.95,
+    "rates": {
+      "buy": "15.82\u00a2/kWh (Chariot GreenVolt 10.2\u00a2 + Oncor TDU 5.62\u00a2)",
+      "sell": "7.0\u00a2/kWh fixed (Chariot GreenVolt buyback)",
+      "fixed": "$34.18/mo ($4.23 Oncor + $29.95 Chariot)",
+      "metering": "Net billing (not 1:1 NEM)"
+    },
+    "system_costs": {
+      "solar_per_kw": 2770,
+      "solar_total": 16481.5,
+      "battery_per_kwh": 1102,
+      "battery_total": 14877.0,
+      "pvs_total": 31358.5
+    }
+  }
+}

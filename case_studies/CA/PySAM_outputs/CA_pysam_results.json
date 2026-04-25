@@ -1,0 +1,65 @@
+{
+  "PGE_SolarOnly": {
+    "bill_wo": 3364.01,
+    "bill_w": 1993.51,
+    "savings": 1370.5,
+    "pv_annual_kwh": 10043.0,
+    "load_annual_kwh": 8917.0
+  },
+  "PGE_SolarBattery": {
+    "bill_wo": 3364.01,
+    "bill_w": 1256.02,
+    "savings": 2107.98,
+    "pv_annual_kwh": 10043.0,
+    "pvs_annual_kwh": 9704.0,
+    "load_annual_kwh": 8917.0
+  },
+  "SCE_SolarOnly": {
+    "bill_wo": 3184.26,
+    "bill_w": 1986.49,
+    "savings": 1197.77,
+    "pv_annual_kwh": 10476.0,
+    "load_annual_kwh": 8431.0
+  },
+  "SCE_SolarBattery": {
+    "bill_wo": 3184.26,
+    "bill_w": 1372.68,
+    "savings": 1811.58,
+    "pv_annual_kwh": 10476.0,
+    "pvs_annual_kwh": 10216.0,
+    "load_annual_kwh": 8431.0
+  },
+  "SDGE_SolarOnly": {
+    "bill_wo": 3226.29,
+    "bill_w": 1907.79,
+    "savings": 1318.5,
+    "pv_annual_kwh": 10239.0,
+    "load_annual_kwh": 7220.0
+  },
+  "SDGE_SolarBattery": {
+    "bill_wo": 3226.29,
+    "bill_w": 807.38,
+    "savings": 2418.91,
+    "pv_annual_kwh": 10239.0,
+    "pvs_annual_kwh": 9984.0,
+    "load_annual_kwh": 7220.0
+  },
+  "_meta": {
+    "pv_kw": 6.05,
+    "battery_kwh": 13.5,
+    "battery_kw": 5.0,
+    "solar_cost_per_kw": 2860,
+    "batt_cost_per_kwh": 1091,
+    "solar_cost": 17303.0,
+    "batt_cost": 14728.5,
+    "total_pvs_cost": 32031.5,
+    "dc_ac_ratio": 1.2,
+    "losses_pct": 14,
+    "itc_pct": 0,
+    "state_incentives": 0,
+    "loan_rate": 0.0724,
+    "loan_term_years": 25,
+    "discount_rate": 0.064,
+    "escalation_rate": 0.025
+  }
+}

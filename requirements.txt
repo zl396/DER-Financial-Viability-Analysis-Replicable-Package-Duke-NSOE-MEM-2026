@@ -1,0 +1,16 @@
+# Core scientific stack
+pandas>=2.0
+numpy>=1.24
+
+# Excel I/O for financial models
+openpyxl>=3.1
+
+# NREL System Advisor Model (PySAM) — PV + battery + utility rate engine
+# Note: Apple Silicon may need conda install; see AGENTS.md troubleshooting.
+nrel-pysam==7.1.0
+
+# HTTP for NSRDB / OpenEI URDB / ResStock fetchers
+requests>=2.31
+
+# Environment variable loading
+python-dotenv>=1.0

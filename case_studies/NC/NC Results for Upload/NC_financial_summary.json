@@ -1,0 +1,106 @@
+{
+  "bill_wo_nmb": 2036.92,
+  "bill_wo_rsc": 1472.6,
+  "scenarios": [
+    {
+      "name": "NMB Solar Sensitivity (rebate only)",
+      "track": "NMB",
+      "bsav": 742,
+      "ew": 0,
+      "debt": 15464,
+      "pmt": 1356,
+      "mo_net": -51,
+      "simple_pb": 20.8,
+      "npv": -5148,
+      "npv_be": "Never",
+      "counterfactual": true,
+      "note": "Applies the $2,077 PowerPair solar-rebate component to a solar-only system. PowerPair enrollment requires a paired battery, so this configuration is not available to a real household. Retained for sensitivity analysis of the rebate's isolated NPV effect."
+    },
+    {
+      "name": "NMB Solar None",
+      "track": "NMB",
+      "bsav": 742,
+      "ew": 0,
+      "debt": 17541,
+      "pmt": 1538,
+      "mo_net": -66,
+      "simple_pb": 23.6,
+      "npv": -7390,
+      "npv_be": "Never"
+    },
+    {
+      "name": "NMB PV+S All",
+      "track": "NMB",
+      "bsav": 781,
+      "ew": 277,
+      "debt": 26453,
+      "pmt": 2319,
+      "mo_net": -105,
+      "simple_pb": 25.0,
+      "npv": -12993,
+      "npv_be": "Never"
+    },
+    {
+      "name": "NMB PV+S None",
+      "track": "NMB",
+      "bsav": 781,
+      "ew": 0,
+      "debt": 33930,
+      "pmt": 2975,
+      "mo_net": -183,
+      "simple_pb": 43.5,
+      "npv": -24474,
+      "npv_be": "Never"
+    },
+    {
+      "name": "RSC Solar Sensitivity (rebate only)",
+      "track": "RSC",
+      "bsav": 517,
+      "ew": 0,
+      "debt": 15464,
+      "pmt": 1356,
+      "mo_net": -70,
+      "simple_pb": 29.9,
+      "npv": -8646,
+      "npv_be": "Never",
+      "counterfactual": true,
+      "note": "Applies the $2,077 PowerPair solar-rebate component to a solar-only system. PowerPair enrollment requires a paired battery, so this configuration is not available to a real household. Retained for sensitivity analysis of the rebate's isolated NPV effect."
+    },
+    {
+      "name": "RSC Solar None",
+      "track": "RSC",
+      "bsav": 517,
+      "ew": 0,
+      "debt": 17541,
+      "pmt": 1538,
+      "mo_net": -85,
+      "simple_pb": 33.9,
+      "npv": -10888,
+      "npv_be": "Never"
+    },
+    {
+      "name": "RSC PV+S All",
+      "track": "RSC",
+      "bsav": 575,
+      "ew": 277,
+      "debt": 26453,
+      "pmt": 2319,
+      "mo_net": -122,
+      "simple_pb": 31.1,
+      "npv": -16201,
+      "npv_be": "Never"
+    },
+    {
+      "name": "RSC PV+S None",
+      "track": "RSC",
+      "bsav": 575,
+      "ew": 0,
+      "debt": 33930,
+      "pmt": 2975,
+      "mo_net": -200,
+      "simple_pb": 59.0,
+      "npv": -27682,
+      "npv_be": "Never"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.local
+*.key
+*credentials*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Office lock & backup files
+~$*
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Cached weather + load profile data (regenerated via shared/fetch_*.py)
+weather_cache/
+*/data/up00-*.csv
+*/data/g0*-*.csv
+case_studies/*/PySAM_outputs/*_hourly.csv
+
+# Large generated outputs
+*.zip

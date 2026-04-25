@@ -1,0 +1,59 @@
+{
+  "Eversource_SolarOnly": {
+    "bill_with_system": 848.8,
+    "bill_without_system": 2295.06,
+    "year1_savings": 1446.26
+  },
+  "Eversource_SolarBattery": {
+    "bill_with_system": 864.3,
+    "bill_without_system": 2295.06,
+    "year1_savings": 1430.76
+  },
+  "NationalGrid_SolarOnly": {
+    "bill_with_system": 1215.34,
+    "bill_without_system": 3303.02,
+    "year1_savings": 2087.68
+  },
+  "NationalGrid_SolarBattery": {
+    "bill_with_system": 1237.71,
+    "bill_without_system": 3303.02,
+    "year1_savings": 2065.31
+  },
+  "_metadata": {
+    "pv_kw": 4.72,
+    "battery_kwh": 13.5,
+    "battery_kw": 5.0,
+    "pv_annual_kwh": 5794,
+    "pvs_annual_kwh": 5732,
+    "load_annual_kwh": 8834,
+    "load_peak_kw": 2.35,
+    "load_source": "ResStock MA aggregate (8,835 kWh/yr)",
+    "weather": "Boston MA 2023 NSRDB",
+    "rates": {
+      "eversource": {
+        "buy": 0.2496,
+        "sell": 0.2375,
+        "fixed": 7.5,
+        "source": "M.D.P.U. No. 7, Eversource R-1, Feb 2026",
+        "file": "Rate Sources/Eversource_R1_Greater_Boston_Feb2026.pdf"
+      },
+      "national_grid": {
+        "buy": 0.3603,
+        "sell": 0.3358,
+        "fixed": 10.0,
+        "source": "M.D.P.U. No. 1609, NGrid R-1, Nov 2025 + Basic Service Feb 2026",
+        "files": [
+          "Rate Sources/NationalGrid_MA_Delivery_Rates_Nov2025.pdf",
+          "Rate Sources/NationalGrid_MA_BasicService_Rates.pdf"
+        ]
+      }
+    },
+    "system_costs_tao_sun": {
+      "solar_per_kw": 3540,
+      "solar_total": 16709,
+      "battery_per_kwh": 1488,
+      "battery_total": 20088,
+      "pvs_total": 36797
+    }
+  }
+}

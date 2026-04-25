@@ -1,0 +1,81 @@
+{
+  "bill_wo": {
+    "PGE": 3364.01,
+    "SCE": 3184.26,
+    "SDGE": 3226.29
+  },
+  "scenarios": [
+    {
+      "name": "PGE Solar Only",
+      "utility": "PGE",
+      "system": "Solar Only",
+      "debt": 17303,
+      "bsav": 1371,
+      "pmt": 1517,
+      "mo_net": -12,
+      "simple_pb": 12.6,
+      "npv": 2649,
+      "npv_be": 11
+    },
+    {
+      "name": "SCE Solar Only",
+      "utility": "SCE",
+      "system": "Solar Only",
+      "debt": 17303,
+      "bsav": 1198,
+      "pmt": 1517,
+      "mo_net": -27,
+      "simple_pb": 14.4,
+      "npv": -39,
+      "npv_be": "Never"
+    },
+    {
+      "name": "SDGE Solar Only",
+      "utility": "SDGE",
+      "system": "Solar Only",
+      "debt": 17303,
+      "bsav": 1318,
+      "pmt": 1517,
+      "mo_net": -17,
+      "simple_pb": 13.1,
+      "npv": 1839,
+      "npv_be": 14
+    },
+    {
+      "name": "PGE PV+Storage",
+      "utility": "PGE",
+      "system": "PV+Storage",
+      "debt": 32032,
+      "bsav": 2108,
+      "pmt": 2808,
+      "mo_net": -58,
+      "simple_pb": 15.2,
+      "npv": -1774,
+      "npv_be": "Never"
+    },
+    {
+      "name": "SCE PV+Storage",
+      "utility": "SCE",
+      "system": "PV+Storage",
+      "debt": 32032,
+      "bsav": 1812,
+      "pmt": 2808,
+      "mo_net": -83,
+      "simple_pb": 17.7,
+      "npv": -6386,
+      "npv_be": "Never"
+    },
+    {
+      "name": "SDGE PV+Storage",
+      "utility": "SDGE",
+      "system": "PV+Storage",
+      "debt": 32032,
+      "bsav": 2419,
+      "pmt": 2808,
+      "mo_net": -32,
+      "simple_pb": 13.2,
+      "npv": 3064,
+      "npv_be": 15
+    }
+  ]
+}

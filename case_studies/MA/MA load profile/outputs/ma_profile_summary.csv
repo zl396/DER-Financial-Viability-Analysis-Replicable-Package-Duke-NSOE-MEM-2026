@@ -1,0 +1,7 @@
+metric,value
+represented_units,2836080.403
+annual_kwh_per_home,8834.586813064918
+average_daily_kwh_per_home,24.20434743305457
+peak_kw_per_home,2.382812435745288
+peak_timestamp,2018-01-05T20:00:00
+minimum_kw_per_home,0.37649741115261837

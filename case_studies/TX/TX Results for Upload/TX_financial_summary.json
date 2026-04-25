@@ -1,0 +1,38 @@
+{
+  "bill_wo": 2786.95,
+  "scenarios": [
+    {
+      "name": "TX Solar No Incentives",
+      "bsav": 1088,
+      "inc": 0,
+      "debt": 16482,
+      "pmt": 1445,
+      "mo_net": -30,
+      "simple_pb": 15.1,
+      "npv": -860,
+      "npv_be": "Never"
+    },
+    {
+      "name": "TX PV+S No Incentives",
+      "bsav": 1099,
+      "inc": 0,
+      "debt": 31358,
+      "pmt": 2749,
+      "mo_net": -138,
+      "simple_pb": 28.5,
+      "npv": -16751,
+      "npv_be": "Never"
+    },
+    {
+      "name": "TX PV+S VPP ($253/yr)",
+      "bsav": 1099,
+      "inc": 253,
+      "debt": 31358,
+      "pmt": 2749,
+      "mo_net": -116,
+      "simple_pb": 23.2,
+      "npv": -13636,
+      "npv_be": "Never"
+    }
+  ]
+}

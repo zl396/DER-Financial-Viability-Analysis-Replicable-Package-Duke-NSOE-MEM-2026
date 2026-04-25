@@ -1,0 +1,94 @@
+{
+  "bill_wo_ev": 2295.06,
+  "bill_wo_ng": 3303.02,
+  "scenarios": [
+    {
+      "name": "EV Solar All",
+      "bsav": 1446.26,
+      "inc_y1": 348,
+      "debt": 15709,
+      "pmt": 1377,
+      "mo_net": 35,
+      "simple_pb": 8.8,
+      "npv": 9413,
+      "npv_be": 1
+    },
+    {
+      "name": "EV Solar None",
+      "bsav": 1446.26,
+      "inc_y1": 0,
+      "debt": 16709,
+      "pmt": 1465,
+      "mo_net": -2,
+      "simple_pb": 11.6,
+      "npv": 4469,
+      "npv_be": 3
+    },
+    {
+      "name": "NG Solar All",
+      "bsav": 2087.68,
+      "inc_y1": 348,
+      "debt": 15709,
+      "pmt": 1377,
+      "mo_net": 88,
+      "simple_pb": 6.4,
+      "npv": 19394,
+      "npv_be": 1
+    },
+    {
+      "name": "NG Solar None",
+      "bsav": 2087.68,
+      "inc_y1": 0,
+      "debt": 16709,
+      "pmt": 1465,
+      "mo_net": 52,
+      "simple_pb": 8.0,
+      "npv": 14449,
+      "npv_be": 1
+    },
+    {
+      "name": "EV PV+S All",
+      "bsav": 1430.76,
+      "inc_y1": 1954,
+      "debt": 35297,
+      "pmt": 3095,
+      "mo_net": 24,
+      "simple_pb": 10.4,
+      "npv": 7522,
+      "npv_be": 1
+    },
+    {
+      "name": "EV PV+S State+SMART",
+      "bsav": 1430.76,
+      "inc_y1": 579,
+      "debt": 35797,
+      "pmt": 3138,
+      "mo_net": -94,
+      "simple_pb": 17.8,
+      "npv": -9946,
+      "npv_be": "Never"
+    },
+    {
+      "name": "NG PV+S All",
+      "bsav": 2065.31,
+      "inc_y1": 1954,
+      "debt": 35797,
+      "pmt": 3138,
+      "mo_net": 73,
+      "simple_pb": 8.9,
+      "npv": 16857,
+      "npv_be": 1
+    },
+    {
+      "name": "NG PV+S State+SMART",
+      "bsav": 2065.31,
+      "inc_y1": 579,
+      "debt": 35797,
+      "pmt": 3138,
+      "mo_net": -41,
+      "simple_pb": 13.5,
+      "npv": -72,
+      "npv_be": "Never"
+    }
+  ]
+}

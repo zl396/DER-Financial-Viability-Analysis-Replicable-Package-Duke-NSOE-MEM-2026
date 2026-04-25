@@ -1,0 +1,98 @@
+{
+  "PGE_SolarOnly": {
+    "bill_with_system": 1993.51,
+    "bill_without_system": 3364.01,
+    "year1_savings": 1370.50
+  },
+  "PGE_SolarBattery": {
+    "bill_with_system": 1256.02,
+    "bill_without_system": 3364.01,
+    "year1_savings": 2107.98
+  },
+  "SCE_SolarOnly": {
+    "bill_with_system": 1986.49,
+    "bill_without_system": 3184.26,
+    "year1_savings": 1197.77
+  },
+  "SCE_SolarBattery": {
+    "bill_with_system": 1372.68,
+    "bill_without_system": 3184.26,
+    "year1_savings": 1811.58
+  },
+  "SDGE_SolarOnly": {
+    "bill_with_system": 1907.79,
+    "bill_without_system": 3226.29,
+    "year1_savings": 1318.50
+  },
+  "SDGE_SolarBattery": {
+    "bill_with_system": 807.38,
+    "bill_without_system": 3226.29,
+    "year1_savings": 2418.91
+  },
+  "_metadata": {
+    "pv_kw": 6.05,
+    "battery_kwh": 13.5,
+    "battery_kw": 5.0,
+    "dc_ac_ratio": 1.2,
+    "system_losses_pct": 14,
+    "inverter_efficiency_pct": 96,
+    "pv_annual_kwh": {
+      "PGE_Sacramento": 10043,
+      "SCE_Riverside": 10476,
+      "SDGE_SanDiego": 10239
+    },
+    "load_annual_kwh": {
+      "PGE_Sacramento": 8917,
+      "SCE_Riverside": 8431,
+      "SDGE_SanDiego": 7220
+    },
+    "load_source": "ResStock county-proxy profiles (Sacramento, Riverside, San Diego)",
+    "weather": {
+      "PGE": "Sacramento CA 2023 NSRDB (38.58N, -121.49W)",
+      "SCE": "Riverside CA 2023 NSRDB (33.95N, -117.40W)",
+      "SDGE": "San Diego CA 2023 NSRDB (32.72N, -117.16W)"
+    },
+    "rates": {
+      "PGE": {
+        "schedule": "E-ELEC",
+        "summer_peak": 0.552,
+        "summer_offpeak": 0.334,
+        "winter_peak": 0.321,
+        "winter_offpeak": 0.285,
+        "fixed_monthly": 24,
+        "export": "ACC hourly (2026 vintage)",
+        "source": "PG&E Schedule E-ELEC, CPUC AL 7213-E"
+      },
+      "SCE": {
+        "schedule": "TOU-D-PRIME",
+        "summer_onpeak": 0.590,
+        "summer_offpeak": 0.260,
+        "winter_midpeak": 0.560,
+        "winter_offpeak": 0.240,
+        "winter_superoffpeak": 0.240,
+        "fixed_monthly": 24,
+        "export": "ACC hourly (2026 vintage)",
+        "source": "SCE Schedule TOU-D-PRIME, CPUC AL 5217-E"
+      },
+      "SDGE": {
+        "schedule": "EV-TOU-5",
+        "summer_peak": 0.800,
+        "summer_offpeak": 0.502,
+        "summer_superoffpeak": 0.124,
+        "winter_peak": 0.529,
+        "winter_offpeak": 0.473,
+        "winter_superoffpeak": 0.117,
+        "fixed_monthly": 24,
+        "export": "ACC hourly (2026 vintage)",
+        "source": "SDG&E Schedule EV-TOU-5, CPUC AL 4259-E"
+      }
+    },
+    "system_costs_tao_sun": {
+      "solar_per_kw": 2860,
+      "solar_total": 17303.0,
+      "battery_per_kwh": 1091,
+      "battery_total": 14728.5,
+      "pvs_total": 32031.5
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "NMB_SolarOnly": {
+    "bill_with_system": 1295.05,
+    "bill_without_system": 2036.92,
+    "year1_savings": 741.86,
+    "bill_wo_rs_baseline": 2036.92,
+    "savings_vs_rs": 741.87
+  },
+  "RSC_SolarOnly": {
+    "bill_with_system": 955.55,
+    "bill_without_system": 1472.6,
+    "year1_savings": 517.05,
+    "bill_wo_rs_baseline": 2036.92,
+    "savings_vs_rs": 1081.37
+  },
+  "NMB_SolarBattery": {
+    "bill_with_system": 1256.1,
+    "bill_without_system": 2036.92,
+    "year1_savings": 780.81,
+    "bill_wo_rs_baseline": 2036.92,
+    "savings_vs_rs": 780.82
+  },
+  "RSC_SolarBattery": {
+    "bill_with_system": 897.93,
+    "bill_without_system": 1472.6,
+    "year1_savings": 574.67,
+    "bill_wo_rs_baseline": 2036.92,
+    "savings_vs_rs": 1138.99
+  },
+  "_metadata": {
+    "pv_kw": 5.77,
+    "battery_kwh": 13.5,
+    "battery_kw": 5.0,
+    "pv_annual_kwh": 8185,
+    "pvs_annual_kwh": 8026,
+    "load_annual_kwh": 14647,
+    "load_peak_kw": 4.59,
+    "load_source": "ResStock NC aggregate (14,647 kWh/yr)",
+    "bill_wo_RS": 2036.92,
+    "bill_wo_RSC": 1472.6,
+    "system_costs": {
+      "solar_total": 17540.8,
+      "battery_total": 16389.0,
+      "pvs_total": 33929.8
+    }
+  }
+}
